@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
+  <!-- Custom CSS --> <!-- NOTE: SWITCH FROM REGULAR FILE & GENERATE ALL MIN.JS FILES-->
   <link href="css/stylish-portfolio.css" rel="stylesheet">
 
   <!-- Custom ICON -->
@@ -41,7 +41,7 @@
         <a class="js-scroll-trigger" href="#page-top">Home</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
+        <a class="js-scroll-trigger" href="#about">Sign Up</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#services">Services</a>
@@ -62,10 +62,38 @@
       <h3 class="mb-5 text-white">
         <em>A Mobile Virtual Reality Platform For Streaming </br>Live And Recorded Entertainment</em>
       </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Enter New Reality</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Join The Beta For Free!</a>
     </div>
     <div class="overlay"></div>
   </header>
+
+
+  <!-- Video & Survey -->
+  <section class="content-section d-flex" style="background-color: darkslateblue;" id="video">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-white">
+          <h2>Download Our Application From The App Store...</h2>
+          <p class="lead mb-5">
+            ...and get front row seats from the comfort of your living room.
+          </p>
+        </div>
+        <div align="center" class="mb-5 embed-responsive embed-responsive-16by9">
+          <video autoplay loop controls muted class="embed-responsive-item">
+              <source src="img\Yonsei Fever Demo Video.mp4" allowfullscreen type="video/mp4">
+          </video>
+        </div>
+        <!-- <div class="embed-responsive embed-responsive-16by9 mb-5" autoplay loop controls muted>
+          <iframe class="embed-responsive-item" src="img\Yonsei Fever Demo Video.mp4" allowfullscreen></iframe>
+        </div> -->
+        <div class="col-lg-10 mx-auto text-white">
+          <p class="lead mb-1">
+            All you need is your phone and, if you want, ..one of <a style="color: white; font-weight: bold;" href="https://www.amazon.com/Pecosso-Compatible-Comfortable-Adjustable-Distance/dp/B08GPL4B1F/ref=sr_1_3?_encoding=UTF8&c=ts&dchild=1&keywords=Cell+Phone+Virtual+Reality+%28VR%29+Headsets&qid=1611604113&s=wireless&sr=1-3&ts_id=14775002011"><em>THESE.</em></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- About -->
   <section class="content-mast-one d-flex" id="about">
@@ -75,7 +103,7 @@
           <h2>A Pandemic Approved Live Concert?!</h2>
           <p class="lead mb-5">With <b><em>asimula</em></b> you can now go to that BTS concert virtually with thousands of others!
             <a style="color: white; font-weight: bold;" href="https://www.youtube.com/watch?v=gdZLi9oWNZg">See ya there! ;)</a></p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Explore Our Platform</a>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="https://linktr.ee/asimula">Sign Up For Our Beta!</a>
         </div>
       </div>
     </div>
@@ -196,15 +224,15 @@
 
   <!-- Contact -->
   <section class="content-section bg-primary text-white">
-    <div class="container text-center">
+    <div id="contact" class="container text-center">
       <h2 class="mb-4">Interested in our technology?</h2>
-      <a href="#!" class="btn btn-xl btn-light mr-4">Read more.</a>
-      <a href="#!" class="btn btn-xl btn-dark">Contact here!</a>
+      <a href="https://www.linkedin.com/company/asimula" class="btn btn-xl btn-light mr-4">Read more.</a>
+      <a href="mailto:partnerships@asimula.com" class="btn btn-xl btn-dark">Contact here!</a>
     </div>
   </section>
 
   <!-- Map -->
-  <div id="contact" class="map">
+  <div class="map">
     <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Asimula,+Inc.,+Woori+Bank,+Jongno,+Seoul&amp;aq=0&amp;oq=asimula&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
     <br />
     <small>
@@ -217,7 +245,7 @@
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#!">
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/asimulaofficial/">
             <i class="icon-social-instagram"></i>
           </a>
         </li>
@@ -232,7 +260,7 @@
           </a>
         </li>
       </ul>
-      <p class="text-muted small mb-0">Copyright &copy; Asimula 2020</p>
+      <p class="text-muted small mb-0">Copyright &copy; Asimula 2021</p>
     </div>
   </footer>
 
@@ -248,8 +276,8 @@
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
+  <!-- Custom scripts for this template - NOTE: SWITCHED FROM MIN.JS -->
+  <script src="js/stylish-portfolio.js"></script>
 
 </body>
 
