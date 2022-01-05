@@ -2,13 +2,32 @@
 <html lang="en">
 
 <head>
+  <title>Asimula - Virtual Concerts, Virtual Worlds. (Quest 2, PC, Mobile)</title>
+
+  <meta name="description" content="Jump in the Asimula Universe. Enjoy virtual concerts with friends in virtual fan worlds and engage with artists live.">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="asimula, a new virtual reality platform">
   <meta name="author" content="asim & daehyeon">
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '677602813218194');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=677602813218194&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
 
-  <title>asimula - Enjoy Virtually</title>
+  <!-- NOTE: This is an unlicensed public landing page. Our latest page is under development. -->
 
   <!-- Bootstrap Core CSS --> <!-- NOTE: USE UNSPLASH FOR IMAGES-->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +41,7 @@
   <link href="css/stylish-portfolio.css" rel="stylesheet">
 
   <!-- Custom ICON -->
-  <link rel="icon" href="img/favicon.png">
+  <link rel="icon" href="img/favicon.ico">
 
 </head>
 
@@ -41,7 +60,7 @@
         <a class="js-scroll-trigger" href="#page-top">Home</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">Sign Up</a>
+        <a class="js-scroll-trigger" href="#about" style="color: gold;"><b>*EVENTS*</b></a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#services">Services</a>
@@ -67,6 +86,7 @@
     <div class="overlay"></div>
   </header>
 
+  <div id="scene"></div> <!-- new scene div-->
 
   <!-- Video & Survey -->
   <section class="content-section d-flex" style="background-color: darkslateblue;" id="video">
@@ -78,7 +98,7 @@
             ...and get front row seats from the comfort of your living room.
           </p>
         </div>
-        <div align="center" class="mb-5 embed-responsive embed-responsive-16by9">
+        <div align = "center" class="mb-5 embed-responsive embed-responsive-16by9">
           <video autoplay loop controls muted class="embed-responsive-item">
               <source src="img\Yonsei Fever Demo Video.mp4" allowfullscreen type="video/mp4">
           </video>
@@ -278,6 +298,7 @@
 
   <!-- Custom scripts for this template - NOTE: SWITCHED FROM MIN.JS -->
   <script src="js/stylish-portfolio.js"></script>
+  <script src="js/glitch-effect1.js"></script>
 
 </body>
 
